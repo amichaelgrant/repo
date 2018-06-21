@@ -1,0 +1,25 @@
+# Sample pipeline config file
+# Feel free to extendor modify as you see fit
+# Enjoy
+
+group1:
+  - script 1
+  - script 2
+  - script 3
+  - script 4
+  - script 5
+
+group2:
+  - action 1
+  - action 2
+  - action 3
+
+group3:
+  - command:
+     property: one
+     property: two
+     property: three
+  - command: 
+     field: 1
+     field: 2
+
